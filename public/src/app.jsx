@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import IrwindaleIntranet from './components/IrwindaleIntranet';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
 
-ReactDOM.render(<h1>THIS.IS.SPARTA!</h1>, document.getElementById('app'));
+ReactDOM.render(<IrwindaleIntranet/>, document.getElementById('app'));
 
 
 

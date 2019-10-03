@@ -7,6 +7,10 @@ module.exports = {
 		path: path.join(__dirname, 'public'),
 		filename: 'bundle.js'
 	},
+	watchOptions: {
+  		poll: true,
+  		ignored: /node_modules/
+	},
 	module: {
 		rules: [{
 			loader: 'babel-loader',
