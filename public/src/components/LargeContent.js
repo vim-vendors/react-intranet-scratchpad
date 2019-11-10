@@ -3,7 +3,7 @@ import React from 'react';
 const LargeContent = (props) => 
 (
 	<section>
-		<p><strong>So large...</strong></p>	
+		<p><strong>More important content</strong></p>	
 	</section>
 	
 );

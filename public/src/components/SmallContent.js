@@ -3,7 +3,7 @@ import React from 'react';
 const SmallContent = (props) => 
 (
 	<section>
-		<p>So small...</p>
+		<p>Less important content</p>
 	</section>
 );
 
