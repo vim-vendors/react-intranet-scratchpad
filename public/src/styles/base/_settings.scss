@@ -4,3 +4,23 @@ $med-size: 1.6rem;
 $large-size: 3.2rem;
 $xlar-size: 4.8rem;
 $desktop-breakpoint: 45rem;
+
+
+//media query variables
+$laptop-min: 1200px;
+$laptop-max: 1600px;
+
+
+//media-query mixins
+@mixin laptop {
+  @media (min-width: #{$laptop-min}) and (max-width: #{$laptop-max - 1px}) {
+    @content;
+  }
+}
+
+@mixin retina-laptop {
+  @media (min-width: #{$laptop-min}) and (max-width: #{$laptop-max - 1px}) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+    @content;
+  }
+}
+

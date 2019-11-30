@@ -1,10 +1,10 @@
 .site {
 	display: grid;
 	grid-template-areas: 
-		"head head head"
-		"side main main"
-		"side main main"
-		"foot foot foot";
+		"head head head head"
+		"side main main main"
+		"side main main main"
+		"foot foot foot foot";
 }
 
 .header {
@@ -12,10 +12,12 @@
 }
 .main-stuff{
 	grid-area: main;
+	border: 1px red dashed;
 }
 
 .sidebar {
 	grid-area: side;
+	border: 1px green dashed;
 }
 
 .my-footer {
