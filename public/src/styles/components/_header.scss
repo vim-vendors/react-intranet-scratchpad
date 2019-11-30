@@ -1,0 +1,45 @@
+
+.header {
+	display: flex;
+	// flex-flow: row wrap;
+	justify-content: space-between;
+	background-color: #009;
+	color: white;
+}
+
+.header h1 {
+	float: left;
+	padding-left: 30px;
+}
+
+.header nav {
+	float: right;
+	// only works in full screen need media queries
+	padding-left: 1200px;
+}
+
+.header ul { 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	padding-top: 13px;
+}
+
+.header ul li { 
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+}
+
+.header ul li a:link {
+	color: white;
+}
+
+.header ul li a:visited {
+	color: white;
+}
+
+.header ul li a:hover {
+	color: pink;
+}

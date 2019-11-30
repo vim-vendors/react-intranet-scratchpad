@@ -8,10 +8,11 @@ import Footer from './Footer';
 export default class IrwindaleIntranet extends React.Component {
 	render(){
 		return (
-			<div>
+			<div className="site">
 				<Header/>
-				<MainContent/>
+				
 				<Sidebar/>	
+				<MainContent/>
 				<Footer/>			
 			</div>			
 		);

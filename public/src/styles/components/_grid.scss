@@ -1,0 +1,23 @@
+.site {
+	display: grid;
+	grid-template-areas: 
+		"head head head"
+		"side main main"
+		"side main main"
+		"foot foot foot";
+}
+
+.header {
+	grid-area: head;
+}
+.main-stuff{
+	grid-area: main;
+}
+
+.sidebar {
+	grid-area: side;
+}
+
+.my-footer {
+	grid-area: foot;
+}
