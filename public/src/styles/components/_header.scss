@@ -1,28 +1,34 @@
 
 .header {
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
 	background-color: #009;
 	color: white;
 	height: 100px;
 }
 
+
+#logo {
+	max-width: 100%;
+	height: 95px;
+}
+
 .header h1 {
-	float: left;
-	padding-left: 30px;
-	border: 1px pink dotted;
+	display: inline-block;
+	margin-top: 33px;
+	
 	@include laptop {
     
   }
 }
 
 .header nav {
-	float: right;
-	// only works in full screen need media queries
-	padding-left: 1200px;
-	border: 1px pink dotted;
+	padding-top: 20px;
+
 	@include laptop {
-	    padding-left: 200px;
+
 	}
 }
 
@@ -30,8 +36,7 @@
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
-	padding-top: 13px;
+
 }
 
 .header ul li { 
@@ -53,9 +58,3 @@
 }
 
 
-#logo {
-	max-width: 100%;
-	height: 95px;
-	padding-left: 40px;
-	border: 1px pink dotted;
-}
