@@ -7,17 +7,21 @@ const Sidebar = (props) =>
 		<nav>
 			<ul>
 				<li>
-					<a href="#"></a>
+					<a href="#">Lady Pic</a>
 				</li>
 				<li>
-					<a href="#"></a>
+					<a href="#">Star Icon</a>
 				</li>
 				<li>
-					<a href="#"></a>
+					<a href="#">Support Icon</a>
 				</li>
 			</ul>
 		</nav>
 		
+		<p>Search Bar</p>
+		<SmallContent/>
+		<SmallContent/>
+		<SmallContent/>
 		<SmallContent/>
 	</aside>
 

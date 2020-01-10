@@ -19,7 +19,7 @@ const Header = (props) =>
 							<a href="#">Logout</a>
 						</li>
 					</ul>
-				</nav>		
+			</nav>		
 		</header>
 );
 
