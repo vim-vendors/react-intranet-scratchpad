@@ -9,8 +9,7 @@ export default class IrwindaleIntranet extends React.Component {
 	render(){
 		return (
 			<div className="site">
-				<Header/>
-				
+				<Header/>		
 				<Sidebar/>	
 				<MainContent/>
 				<Footer/>			
