@@ -4,6 +4,7 @@ import userIcon from "../images/interface/png/user-3.png";
 import placeholder from "../images/interface/png/placeholder.png";
 import supportIcon from "../images/interface/png/speech-bubble-1.png";
 import magGlass from "../images/interface/png/zoom-in.png";
+import directory from "../images/interface/png/group.png";
 
 const Sidebar = (props) => 
 (
@@ -13,17 +14,22 @@ const Sidebar = (props) =>
 			<ul>
 				<li>
 					<a href="#">
-						<img src={userIcon} alt=""/>
+						<img src={userIcon} alt="User ID"/>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src={placeholder} alt=""/>
+						<img src={placeholder} alt="Placeholder"/>
 					</a>
 				</li>
 				<li>
 					<a href="#">
-						<img src={supportIcon} alt=""/>
+						<img src={directory} alt="User Directory"/>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src={supportIcon} alt="Chat Support"/>
 					</a>
 				</li>
 			</ul>
