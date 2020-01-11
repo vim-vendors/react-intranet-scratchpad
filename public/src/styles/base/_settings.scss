@@ -17,17 +17,37 @@ $laptop-max: 1600px;
 
 //media-query mixins
 @mixin laptop {
-  @media (min-width: #{$laptop-min}) and (max-width: #{$laptop-max - 1px}) {
+  @media (min-width: #{$laptop-min}) 
+  and (max-width: #{$laptop-max - 1px}) {
     @content;
   }
 }
 
 @mixin retina-laptop {
-  @media (min-width: #{$laptop-min}) and (max-width: #{$laptop-max - 1px}) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  @media (min-width: #{$laptop-min}) 
+  and (max-width: #{$laptop-max - 1px}) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (min-resolution: 192dpi) {
     @content;
   }
 }
 
+@mixin iphone5s-landscape {
+	@media only screen 
+	and (min-device-width : 320px) 
+	and (max-device-width : 568px) { 
+			@content;
+		}
+}
+
+@mixin iPad-mini {
+	@media only screen 
+	and (min-device-width : 768px) 
+	and (max-device-width : 1024px)
+	and (-webkit-min-device-pixel-ratio: 1)  { 
+		@content;
+	}
+}
 
 // for testing purposes
 $test-border: 1px pink dotted;
