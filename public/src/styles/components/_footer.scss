@@ -1,3 +1,15 @@
-// .footer {
-// 	background-color: ForestGreen;
-// }
+.my-footer {
+	background-color: $main;
+	color: white;
+	text-align: center;
+}
+
+.my-footer a {
+	color: $aqua;
+	text-decoration: none;
+}
+
+.my-footer h4 {
+	font-weight: bold;
+	color: $aqua;
+}

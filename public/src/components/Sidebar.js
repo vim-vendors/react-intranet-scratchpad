@@ -1,10 +1,17 @@
 import React from 'react';
 import SmallContent from './SmallContent'; 
+import HomeBox from './HomeBox'; 
+import HRBox from './HRBox'; 
+import PublicBox from './PublicBox'; 
+import CivilBox from './CivilBox'; 
+
+
 import userIcon from "../images/interface/png/user-3.png";
 import placeholder from "../images/interface/png/placeholder.png";
 import supportIcon from "../images/interface/png/speech-bubble-1.png";
 import magGlass from "../images/interface/png/zoom-in.png";
 import directory from "../images/interface/png/group.png";
+
 
 const Sidebar = (props) => 
 (
@@ -40,10 +47,10 @@ const Sidebar = (props) =>
 		    <button type="submit"><img src={magGlass} alt=""/></button>
 		  </form>
 		</div>
-		<SmallContent/>
-		<SmallContent/>
-		<SmallContent/>
-		<SmallContent/>
+		<HomeBox/>
+		<HRBox/>
+		<PublicBox/>
+		<CivilBox/>
 	</aside>
 
 );

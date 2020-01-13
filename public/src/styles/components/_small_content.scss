@@ -1,6 +1,3 @@
-// .main-grid {
-// 	background-color: DeepSkyBlue;
-// }
 
 .small_content {
 	background-color: $main;
@@ -8,7 +5,30 @@
 	color: white;
 	padding: 20px;
     width: 200px;
-    height: 150px;
+    // height: 150px;
     margin-bottom: 22px;
     margin-left: 22px;
+}
+
+.small_content header {
+	// border: 1px red dashed;
+	display: inline-block;
+	margin-bottom: -25px;
+	margin-top: -25px;
+}
+
+.small_content a {
+	color: white;
+	text-decoration: none;
+}
+
+.small_content ul li img {
+	max-width: 100%;
+	height: 35px;
+	margin-left: -10px;
+	margin-right: 10px;
+	margin-bottom: -15px;
+	background-color: tomato;
+	border-radius: 50%; 
+	border: 1px black dashed;
 }
