@@ -28,7 +28,11 @@
 	margin-left: -10px;
 	margin-right: 10px;
 	margin-bottom: -15px;
-	background-color: tomato;
+	background-color: darkorange;
 	border-radius: 50%; 
-	border: 1px black dashed;
+	// border: 1px black dashed;
+}
+
+.small_content ul li a:hover {
+	color: $visited;
 }

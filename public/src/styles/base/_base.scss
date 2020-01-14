@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth&display=swap');
+
 html {
 	font-size: 62.5%;
 }
@@ -13,4 +15,8 @@ button {
 
 button:disabled {
 	cursor:disabled;
+}
+
+h1, h2, h3, h4, h5, h6, div, p {
+	font-family: 'Amaranth', sans-serif;
 }
