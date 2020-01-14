@@ -2,14 +2,13 @@
 	background-color: $main;
 	color: white;
 	text-align: center;
+	h4 {
+		font-weight: bold;
+		color: white;
+	}
 }
 
 .credit-links, .credit-links a {
 	color: $main;
 	text-decoration: none;
-}
-
-.my-footer h4 {
-	font-weight: bold;
-	color: white;
 }

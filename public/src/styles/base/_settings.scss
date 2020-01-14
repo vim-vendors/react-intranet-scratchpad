@@ -6,14 +6,17 @@ $xlar-size: 4.8rem;
 $desktop-breakpoint: 45rem;
 
 //colors
-$visited: #009;
+$hoverblue: #009;
 $main: dodgerblue;
 $aqua: paleturquoise;
 
 //media query breakpoints
+$iphone-5s-min: 320px;
+$iphone-5s-max: 568px;
+$ipad-mini-min:768px;
+$ipad-mini-max:1024px;
 $laptop-min: 1200px;
 $laptop-max: 1600px;
-
 
 //media-query mixins
 @mixin laptop {
@@ -34,16 +37,16 @@ $laptop-max: 1600px;
 
 @mixin iphone5s-landscape {
 	@media only screen 
-	and (min-device-width : 320px) 
-	and (max-device-width : 568px) { 
+	and (min-device-width : #{$iphone-5s-min}) 
+	and (max-device-width : #{$iphone-5s-max}) { 
 			@content;
 		}
 }
 
 @mixin iPad-mini {
 	@media only screen 
-	and (min-device-width : 768px) 
-	and (max-device-width : 1024px)
+	and (min-device-width : #{$ipad-mini-min}) 
+	and (max-device-width : #{$ipad-mini-max})
 	and (-webkit-min-device-pixel-ratio: 1)  { 
 		@content;
 	}

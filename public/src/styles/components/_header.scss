@@ -7,7 +7,43 @@
 	background-color: $main;
 	color: white;
 	height: 100px;
-}
+	h1 {
+		display: inline-block;
+		margin-top: 33px;
+		@include laptop {
+    	//???
+  	}}
+  	nav {
+	padding-top: 20px;
+
+		@include laptop {
+
+	}}
+	ul { 
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	li { 
+		display: inline-block;
+		padding: 10px;
+		margin: 10px;
+		a {
+			&:link {
+			color: white;
+			text-decoration: none;
+			// padding-right: 30px;
+			// border-right:1px solid #FFF
+			}
+			&:visited {
+				color: white;
+			}
+			&:hover {
+				color: $hoverblue;
+			}
+		}
+	}
+}}
+
 
 
 #logo {
@@ -15,50 +51,5 @@
 	height: 95px;
 }
 
-.header h1 {
-	display: inline-block;
-	margin-top: 33px;
-	
-	@include laptop {
-    
-  }
-}
-
-.header nav {
-	padding-top: 20px;
-
-	@include laptop {
-
-	}
-}
-
-.header ul { 
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-
-}
-
-.header ul li { 
-	display: inline-block;
-	padding: 10px;
-	margin: 10px;
-	
-}
-
-.header ul li a:link {
-	color: white;
-	text-decoration: none;
-	// padding-right: 30px;
-	// border-right:1px solid #FFF
-}
-
-.header ul li a:visited {
-	color: white;
-}
-
-.header ul li a:hover {
-	color: $visited;
-}
 
 
