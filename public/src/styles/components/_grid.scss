@@ -49,7 +49,7 @@
 
 .main-header {
 	grid-area: small-heading;
-	border: 1px green dashed;
+	// border: 1px green dashed;
 	// width: 290px;
 	@include iphone5s-landscape {
 		width: 100%;

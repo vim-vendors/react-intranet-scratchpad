@@ -7,21 +7,22 @@ import ticket from "../images/interface/png/document.png";
 const MainHeader = (props) => 
 (
 		<header className="main-header">	
-
-			<img src="" id="logo"/>
-			<h1>Home</h1>
-			<nav className="menu">
-				<div>
+			<hgroup className="main-header__group">
+				<img src="" id="logo"/>
+				<h1>Home</h1>
+				<nav className="menu">
 					<div>
-						<ul>
-							<li><a href="#"><img src={magGlass} alt="Content Search Icon"/></a></li>
-							<li><a href="#"><img src={gears} alt="Settings Icon"/></a></li>
-							<li><a href="#"><img src={ticket} alt="Ticket Icon"/></a></li>
-						</ul>
+						<div>
+							<ul>
+								<li><a href="#"><img src={magGlass} alt="Content Search Icon"/></a></li>
+								<li><a href="#"><img src={gears} alt="Settings Icon"/></a></li>
+								<li><a href="#"><img src={ticket} alt="Ticket Icon"/></a></li>
+							</ul>
+						</div>
 					</div>
-				</div>
-
-			</nav>		
+				</nav>	
+			</hgroup>
+			<div className="main-header__h-line"></div>
 		</header>
 );
 
