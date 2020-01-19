@@ -1,6 +1,8 @@
 import React from 'react';
 
 import magGlass from "../images/interface/png/zoom-in.png";
+import gears from "../images/interface/png/settings.png";
+import ticket from "../images/interface/png/document.png";
 
 const MainHeader = (props) => 
 (
@@ -12,9 +14,9 @@ const MainHeader = (props) =>
 				<div>
 					<div>
 						<ul>
-							<li><a href="#"><img src={magGlass} alt="Search"/></a></li>
-							<li><a href="#"><img src={magGlass} alt="Search"/></a></li>
-							<li><a href="#"><img src={magGlass} alt="Search"/></a></li>
+							<li><a href="#"><img src={magGlass} alt="Content Search Icon"/></a></li>
+							<li><a href="#"><img src={gears} alt="Settings Icon"/></a></li>
+							<li><a href="#"><img src={ticket} alt="Ticket Icon"/></a></li>
 						</ul>
 					</div>
 				</div>
