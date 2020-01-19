@@ -2,8 +2,8 @@
 	display: grid;
 	grid-template-areas: 
 		"head head head head head head"
-		"side main main main main main"
-		"side main main main main main"
+		"side main main main filler filler"
+		"side main main main filler filler"
 		"foot foot foot foot foot foot";
 
 	@include iphone5s-landscape {
@@ -11,6 +11,8 @@
 			"head head head"
 			"main main main"
 			"main main main"
+			"filler filler filler"
+			"filler filler filler"
 			"side side side"
 			"side side side"
 			"foot foot foot";
@@ -19,8 +21,8 @@
   	@include iPad-mini {
     	grid-template-areas: 
 			"head head head"
-			"side main main"
-			"side main main"
+			"side main filler"
+			"side main filler"
 			"foot foot foot";
   	}
 }
@@ -42,6 +44,23 @@
   	}
 }
 
+.sidebar {
+	grid-area: side;
+	// border: 1px green dashed;
+	width: 290px;
+	@include iphone5s-landscape {
+		width: 100%;
+  	}
+}
+
+.side_content {
+	grid-area: filler;
+	// border: 1px green dashed;
+	width: 290px;
+	@include iphone5s-landscape {
+		width: 100%;
+  	}
+}
 .my-footer {
 	grid-area: foot;
 }
