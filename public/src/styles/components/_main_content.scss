@@ -1,11 +1,12 @@
 .main-stuff {
 	max-width: 70%;
 	margin-left: 15%;
-	border: $testing;
+	// border: $testing;
 }
 
 .large-content {
-	border: $testing2;
+	// border: $testing2;
+
 }
 
 .large-content__header {
@@ -14,11 +15,32 @@
 		font-size: 20pt; 
 		text-align: left; 
 		margin-left: 25%;
-		border: $testing;
+		// border: $testing;
 	}
+	
 }
 
-
+.large-content__header > li {
+	li { 
+		display: inline-block;
+		padding: 10px;
+		margin: 10px;
+		a {
+			&:link {
+			color: $main;
+			text-decoration: none;
+			// padding-right: 30px;
+			// border-right:1px solid #FFF
+			}
+			&:visited {
+				color: white;
+			}
+			&:hover {
+				color: $hoverblue;
+			}
+		}
+	}
+}
 
 .main_content {
 	color: $main;
@@ -36,10 +58,41 @@
 		margin-left: 25%;
 		color: black;
 		font-family: $helvetica;
-
+		text-align: justify;
+		&:first-of-type{
+			text-indent: 2em;
+		}
+		
 		// &:nth-child(n+3) {
 		// 	display:none;
 		// }
 	}
 }
 
+.large-content__navbar, {
+	ul { 
+			// border: $testing;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			li { 
+				display: inline-block;
+				padding: 10px;
+				margin: 10px;
+				a {
+					&:link {
+					color: $main;
+					text-decoration: none;
+					// padding-right: 30px;
+					// border-right:1px solid #FFF
+					}
+					&:visited {
+						color: white;
+					}
+					&:hover {
+						color: $hoverblue;
+					}
+				}
+			}
+		}
+}
