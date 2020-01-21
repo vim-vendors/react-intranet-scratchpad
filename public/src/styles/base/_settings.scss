@@ -1,3 +1,7 @@
+//test code
+$testing: red dashed 1px;
+$testing2: black dashed 2px;
+
 //Spacing
 $small-size: 1.2rem;
 $med-size: 1.6rem;
@@ -8,7 +12,8 @@ $desktop-breakpoint: 45rem;
 //colors
 $hoverblue: #009;
 $main: dodgerblue;
-$aqua: paleturquoise;
+// $aqua: paleturquoise;
+$aqua: #d6ffff;
 
 //media query breakpoints
 $iphone-5s-min: 320px;
@@ -51,4 +56,5 @@ $laptop-max: 1600px;
 		@content;
 	}
 }
+
 

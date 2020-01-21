@@ -3,8 +3,8 @@ import placeholder from "../images/interface/png/placeholder.png";
 
 const LargeContent = (props) => 
 (
-	<section className="large_content">
-		<header>
+	<section className="large-content">
+		<header className="large-content__header">
 			<hgroup>
 				{/*<li><a href="#"><img src={} alt=""/></a></li>*/}
 				<li>h link</li>

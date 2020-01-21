@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sync": "browser-sync start --server --port 3000 --watchEvents 'change' --no-inject-changes --no-open --directory --files 'public/index.html' 'public/bundle.js'",
+    "sync-on": "browser-sync start --server --port 3000 --watchEvents 'change' --no-inject-changes --no-open --directory --files 'public/index.html' 'public/bundle.js'",
+    "sync-off": "browser-sync start --server --port 3000 --watchEvents 'change' --no-inject-changes --no-open --no-online --directory --files 'public/index.html' 'public/bundle.js'",
     "watch": "babel public/src/app.jsx --out-file=public/scripts/app.js --presets=env,react --watch",
     "flavor": "babel public/src/playground/counter-example.jsx --out-file=public/scripts/app.js --presets=env,react --watch",
     "build": "webpack --watch"

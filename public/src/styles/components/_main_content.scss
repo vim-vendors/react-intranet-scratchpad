@@ -1,6 +1,45 @@
-.main_content {
+.main-stuff {
+	max-width: 70%;
+	margin-left: 15%;
+	border: $testing;
+}
+
+.large-content {
+	border: $testing2;
+}
+
+.large-content__header {
 	h1 {
-		font-size: 15pt; 
-		color: black;
+		color: $main;
+		font-size: 20pt; 
+		text-align: left; 
+		margin-left: 25%;
+		border: $testing;
 	}
 }
+
+
+
+.main_content {
+	color: $main;
+	border: $testing;
+	h1 {
+		font-size: 15pt; 
+		// 
+		text-align: center; 
+		border: $testing;
+	}
+
+	p {
+		max-width: 50%;
+		border: $testing;
+		margin-left: 25%;
+		color: black;
+		font-family: $helvetica;
+
+		// &:nth-child(n+3) {
+		// 	display:none;
+		// }
+	}
+}
+

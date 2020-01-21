@@ -3,12 +3,7 @@ import LargeContent from './LargeContent';
 
 const MainContent = (props) => 
 (
-	<main className="main-stuff">
-		<header>
-			
-			<nav></nav>
-		</header>
-		
+	<main className="main-stuff">	
 		<LargeContent/>
 		<LargeContent/>
 		<LargeContent/>
