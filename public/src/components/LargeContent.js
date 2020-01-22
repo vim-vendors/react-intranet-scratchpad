@@ -7,14 +7,14 @@ const LargeContent = (props) =>
 		<header className="large-content__header">
 			<hgroup>
 				{/*<li><a href="#"><img src={} alt=""/></a></li>*/}
-				<li>h link</li>
+				<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
 				<h1>City News</h1>
-				<li>h link</li>
+				<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
 			</hgroup>
 			<nav className="large-content__navbar">
 				<ul>
-					<li>n link</li>
-					<li>n link</li>
+					<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+					<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
 				</ul>
 			</nav>
 		</header>
@@ -29,9 +29,9 @@ const LargeContent = (props) =>
 		<footer>
 			<nav className="large-content__navbar">
 				<ul>
-					<li>f link</li>
-					<li>f link</li>
-					<li>f link</li>
+					<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+					<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+					<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
 				</ul>
 			</nav>
 		</footer>

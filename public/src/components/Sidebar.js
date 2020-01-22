@@ -19,26 +19,10 @@ const Sidebar = (props) =>
 		
 		<nav>
 			<ul>
-				<li>
-					<a href="#">
-						<img src={userIcon} alt="User ID"/>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src={placeholder} alt="Placeholder"/>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src={directory} alt="User Directory"/>
-					</a>
-				</li>
-				<li>
-					<a href="#">
-						<img src={supportIcon} alt="Chat Support"/>
-					</a>
-				</li>
+				<li><a href="#"><img src={userIcon} alt="User ID"/></a></li>
+				<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+				<li><a href="#"><img src={directory} alt="User Directory"/></a></li>
+				<li><a href="#"><img src={supportIcon} alt="Chat Support"/></a></li>
 			</ul>
 		</nav>
 		<div class="search-container">
