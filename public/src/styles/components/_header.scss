@@ -1,5 +1,5 @@
 
-.header,  {
+.header  {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -31,8 +31,8 @@
 			&:link {
 			color: white;
 			text-decoration: none;
-			// padding-right: 30px;
-			// border-right:1px solid #FFF
+			padding-right: 30px;
+			border-right:1px solid #FFF;
 			}
 			&:visited {
 				color: white;
@@ -40,9 +40,12 @@
 			&:hover {
 				color: $hoverblue;
 			}
+
+
+     	}
 		}
 	}
-}}
+}
 
 
 
@@ -53,3 +56,6 @@
 
 
 
+#header-menu__last-link {
+	border-right: none;
+}

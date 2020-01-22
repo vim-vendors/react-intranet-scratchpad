@@ -12,13 +12,13 @@ const Header = (props) =>
 
 			<img src={logo} id="logo"/>
 			<h1 className="header__title">{props.title}</h1>
-			<nav className="menu">
+			<nav className="header-menu">
 				<div>
 					<div>
 						<ul>
 							<li><a href="#">Help</a></li>
 							<li><a href="#">Feedback</a></li>
-							<li><a href="#">Logout</a></li>
+							<li><a href="#" id="header-menu__last-link">Logout</a></li>
 						</ul>
 					</div>
 				</div>

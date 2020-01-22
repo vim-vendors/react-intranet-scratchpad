@@ -1,10 +1,21 @@
 import React from 'react';
 
+import placeholder from "../images/interface/png/placeholder.png";
+
+
 const SideContent = (props) => 
 (
-	<aside className="side_content">
-		<p>Side Content - Filler</p>
-	</aside>
+	<div>
+		<aside className="side_content">
+			<p>Side Content - Filler</p>
+			<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+		</aside>
+		<aside className="side_content">
+			<p>Side Content - Filler</p>
+			<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+		</aside>		
+	</div>
+
 	
 );
 

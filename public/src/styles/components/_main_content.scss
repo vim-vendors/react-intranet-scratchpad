@@ -1,7 +1,6 @@
 .main-stuff {
-	max-width: 70%;
-	margin-left: 15%;
-	// border: $testing;
+	max-width: 60%;
+	margin-left: 5%;
 }
 
 .large-content {
@@ -11,9 +10,11 @@
 	border-bottom: 4px $side-border solid;
 	border-bottom-left-radius: 70px;
 	border-bottom-right-radius: 70px;
+
+
 	margin-bottom: 40px;
 	footer {
-		margin-left: 24%;
+		margin-left: 14%;
 			img {
 			max-width: 100%;
 			height: 25px;
@@ -30,15 +31,9 @@
 		color: $main;
 		font-size: 20pt; 
 		text-align: left; 
-		// margin-left: 25%;
-		// border: $testing;
 		display: inline-block;
-		// float: left;
 	}
 	li { 
-		// border: $testing;
-
-		// float: left;
 		display: inline-block;
 		padding: 10px;
 		margin: 10px;
@@ -46,7 +41,6 @@
 			&:link {
 			color: $main;
 			text-decoration: none;
-			// padding-right: 30px;
 			border-right:1px solid #FFF
 			}
 			&:visited {
@@ -58,7 +52,6 @@
 		}
 	}
 	hgroup {
-		// border: $testing;
 		margin-left: -10%;
 	}
 	img {
@@ -71,18 +64,15 @@
 
 .main_content {
 	color: $main;
-	// border: $testing;
 	h1 {
 		font-size: 15pt; 
 		// 
 		text-align: center; 
-		// border: $testing;
 	}
 
 	p {
-		max-width: 50%;
-		// // border: $testing;
-		margin-left: 25%;
+		max-width: 70%;
+		margin-left: 15%;
 		color: black;
 		font-family: $helvetica;
 		text-align: justify;
@@ -99,7 +89,6 @@
 .large-content__navbar {
 	margin-right: -10%;
 	ul { 
-			// // border: $testing;
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
@@ -111,7 +100,6 @@
 					&:link {
 					color: $main;
 					text-decoration: none;
-					// padding-right: 30px;
 					border-right:1px solid #FFF
 					}
 					&:visited {
