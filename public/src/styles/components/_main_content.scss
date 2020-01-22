@@ -41,10 +41,10 @@
 			&:link {
 			color: $main;
 			text-decoration: none;
-			border-right:1px solid #FFF
+			// border-right:1px solid #FFF
 			}
 			&:visited {
-				color: white;
+				// color: black;
 			}
 			&:hover {
 				color: $hoverblue;
@@ -61,6 +61,12 @@
 	}
 }
 
+.large-content__header-add {
+		color: $main;
+		border-radius: 60px;
+		padding: 5px;
+		border: 1px solid $main;
+}
 
 .main_content {
 	color: $main;

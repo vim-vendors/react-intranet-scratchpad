@@ -1,20 +1,23 @@
 import React from 'react';
+
+import newsIcon from "../images/interface/png/browser.png";
 import placeholder from "../images/interface/png/placeholder.png";
+import cancel from "../images/interface/png/cancel.png";
+import ideas from "../images/interface/png/light-bulb-1.png"; 
 
 const LargeContent = (props) => 
 (
 	<section className="large-content">
 		<header className="large-content__header">
 			<hgroup>
-				{/*<li><a href="#"><img src={} alt=""/></a></li>*/}
-				<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+				<li><a href="#"><img src={newsIcon} alt="News Icon"/></a></li>
 				<h1>City News</h1>
-				<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+				<li><a href="#" className="large-content__header-add">Add</a></li>
 			</hgroup>
 			<nav className="large-content__navbar">
 				<ul>
-					<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
-					<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+					<li><a href="#"><img src={cancel} alt=""/></a></li>
+					<li><a href="#"><img src={ideas} alt=""/></a></li>
 				</ul>
 			</nav>
 		</header>
@@ -29,7 +32,7 @@ const LargeContent = (props) =>
 		<footer>
 			<nav className="large-content__navbar">
 				<ul>
-					<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+					<li><a href="#"><img src={newsIcon} alt="News Icon"/></a></li>
 					<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
 					<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
 				</ul>
