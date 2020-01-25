@@ -5,7 +5,9 @@ const MainContent = (props) =>
 (
 	<main className="main-stuff">	
 		<LargeContent/>
+		<div className="main_content--style-line"></div>
 		<LargeContent/>
+		<div className="main_content--style-line"></div>
 		<LargeContent/>
 	</main>
 	
