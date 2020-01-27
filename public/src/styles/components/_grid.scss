@@ -22,11 +22,12 @@
 
   	@include iPad-mini {
     	grid-template-areas: 
-			"head head head head"
-			"side small-heading small-heading small-heading"
-			"side main main main"
-			"filler filler filler filler"
-			"foot foot foot foot";
+			"head head head"
+			"small-heading small-heading small-heading"
+			"main main main"
+			"side side side"
+			"filler filler filler"
+			"foot foot foot";
   	}
 }
 
@@ -35,35 +36,20 @@
 }
 .main-stuff{
 	grid-area: main;
-	// border: 1px red dashed;
 }
 
 .sidebar {
 	grid-area: side;
-	// border: 1px green dashed;
-
-	@include iphone5s-landscape {
-		width: 100%;
-  	}
 }
 
 .main-header {
 	grid-area: small-heading;
-	// border: 1px green dashed;
-	// width: 290px;
-	@include iphone5s-landscape {
-		width: 100%;
-  	}
 }
 
 .side_content {
 	grid-area: filler;
-	// border: 1px green dashed;
-	// max-width: 290px;
-	@include iphone5s-landscape {
-		width: 100%;
-  	}
 }
+
 .my-footer {
 	grid-area: foot;
 }

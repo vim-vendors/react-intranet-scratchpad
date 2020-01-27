@@ -1,23 +1,14 @@
 .main-stuff {
-	max-width: 60%;
 	margin-left: 5%;
+	margin-right: 5%;
 }
 
 .main-stuff {
-	border-top: 10px $main solid;
-	border-left: 4px $side-border solid;
-	border-right: 4px $side-border solid;
-	border-bottom: 4px $side-border solid;
-	border-bottom-left-radius: 70px;
-	border-bottom-right-radius: 70px;
-
-
-	margin-bottom: 40px;
+	@include center-content-border;
 }
 
 .large-content {
-	// border-bottom: 3px $side-border solid;
-	// margin-bottom: 40px;
+	padding-top: 10px;
 	footer {
 		margin-left: 14%;
 			img {
@@ -46,10 +37,8 @@
 			&:link {
 			color: $main;
 			text-decoration: none;
-			// border-right:1px solid #FFF
 			}
 			&:visited {
-				// color: black;
 			}
 			&:hover {
 				color: $hoverblue;
@@ -119,7 +108,6 @@
 					&:link {
 					color: $main;
 					text-decoration: none;
-					border-right:1px solid #FFF
 					}
 					&:visited {
 						color: white;

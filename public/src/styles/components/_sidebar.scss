@@ -20,6 +20,9 @@
 		max-width: 100%;
 		height: 45px;
 	}
+	@include iphone5s-landscape {
+		width: 100%;
+  	}
 }
 
 
@@ -34,6 +37,11 @@
 		img {
 			max-width: 100%;
 			max-height: 15px;
+		}
+	}
+	@include laptop {
+		input {
+			width: 50%;
 		}
 	}
 }

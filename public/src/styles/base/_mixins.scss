@@ -1,0 +1,20 @@
+@mixin center-content-border {
+	border-top: 10px $main solid;
+	border-left: 4px $side-border solid;
+	border-right: 4px $side-border solid;
+	border-bottom: 4px $side-border solid;
+	border-bottom-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+	margin-bottom: 40px;
+}
+
+@mixin header-flex ($justify, $bg-color, $color) {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: $justify;
+	background-color: $bg-color;
+	color: $color;
+	height: 100px;
+}
+

@@ -1,27 +1,27 @@
+.main-header {
+	@include iphone5s-landscape {
+		width: 100%;
+  	}
+}
+
 .main-header__group {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	background-color: white;
-	color: $main;
-	height: 100px;
-	// border: 1px purple solid;
+	@include header-flex (space-between, white, $main);
 	h1 {
 		display: inline-block;
 		margin-top: 33px;
 		font-size: 29pt;
-		// border: 1px purple solid;
 		margin-left: -74%;
 		@include laptop {
-    	margin-left: -54%;
+    		margin-left: -54%;
+		}
+		@include iPad-mini {
+			margin-left: -44%;
 		}
 	}
 	ul{
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
-		// border: 1px purple solid;
 		li {
 			display: inline-block;
 		    padding: 10px;
@@ -29,10 +29,10 @@
 			a {
 				text-decoration: none;
 				color: $main;
-					img {
-						max-width: 100%;
-						height: 45px;
-					}
+				img {
+					max-width: 100%;
+					height: 45px;
+				}
 			}
 		}
 	}	

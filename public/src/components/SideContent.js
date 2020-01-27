@@ -1,19 +1,17 @@
 import React from 'react';
 
-import placeholder from "../images/interface/png/placeholder.png";
-
+import GraphBox from './GraphBox';
+import PollBox from './PollBox';
+import WeatherBox from './WeatherBox';
+import DirectoryBox from './DirectoryBox';
 
 const SideContent = (props) => 
 (
 	<div>
-{/*		<aside className="side_content">
-			<p>Side Content - Filler</p>
-			<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
-		</aside>
-		<aside className="side_content">
-			<p>Side Content - Filler</p>
-			<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
-		</aside>*/}		
+		<GraphBox/>
+		<PollBox/>
+		<WeatherBox/>
+		<DirectoryBox/>
 	</div>
 
 	
