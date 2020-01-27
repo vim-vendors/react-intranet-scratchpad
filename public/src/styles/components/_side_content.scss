@@ -1,12 +1,13 @@
 .side_content {
 	@include center-content-border;
 	img {
-		// width: 300px;
-		// height: 300px;
+		max-width: 300px;
+		height: 300px;
 		max-width: 100%;
+		margin-left: -10%;
 	}
-	padding: 20px;
-	margin-right: 5%;
+	padding: 5%;
+	margin-right: 10%;
 	@include iphone5s-landscape {
 		width: 100%;
   	}
