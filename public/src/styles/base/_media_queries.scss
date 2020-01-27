@@ -20,7 +20,7 @@ $large-desktop: 1824px;
 
 /* Smartphones (portrait and landscape) ----------- */
 @mixin generic-smartphone-portrait {
-		@media only screen 
+	@media only screen 
 	and (min-device-width : #{$iphone-5s-min}) 
 	and (max-device-width : #{$smartphone-generic-max}) {
 		@content;
@@ -89,7 +89,7 @@ $large-desktop: 1824px;
 iPad 3
 **********/
 @mixin iPad-3-landscape {
-		@media only screen 
+	@media only screen 
 	and (min-device-width : #{$ipad-mini-min}) 
 	and (max-device-width : #{$ipad-mini-max}) 
 	and (orientation : landscape) 
