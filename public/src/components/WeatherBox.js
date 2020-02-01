@@ -12,7 +12,7 @@ const WeatherBox = (props) =>
 				<h1>Local Weather</h1>
 			</header>
 			
-			<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+			<a href="#"><img src={placeholder} alt="Placeholder"/></a>
 		</aside>	
 	</div>
 

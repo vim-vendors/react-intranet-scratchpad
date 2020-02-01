@@ -12,7 +12,7 @@ const GraphBox = (props) =>
 				<h1>2018 Market Figures</h1>
 			</header>
 			
-			<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+			<a href="#"><img src={placeholder} alt="Placeholder"/></a>
 		</aside>	
 	</div>
 

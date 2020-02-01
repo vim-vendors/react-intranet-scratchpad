@@ -12,7 +12,7 @@ const PollBox = (props) =>
 				<h1>Company Poll</h1>
 			</header>
 			
-			<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+			<a href="#"><img src={placeholder} alt="Placeholder"/></a>
 		</aside>	
 	</div>
 

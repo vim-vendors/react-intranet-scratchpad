@@ -12,7 +12,7 @@ const DirectoryBox = (props) =>
 				<h1>Company Directory</h1>
 			</header>
 			
-			<li><a href="#"><img src={placeholder} alt="Placeholder"/></a></li>
+			<a href="#"><img src={placeholder} alt="Placeholder"/></a>
 		</aside>	
 	</div>
 
