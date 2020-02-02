@@ -2,6 +2,11 @@
 $testing: red dashed 1px;
 $testing2: black dashed 2px;
 
+//mixin for creating a test border
+@mixin test-border($style){
+	border: $style;
+}
+
 //colors
 $hoverblue: #009;
 $main: dodgerblue;
