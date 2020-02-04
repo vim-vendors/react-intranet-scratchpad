@@ -1,6 +1,9 @@
 //container 
 .side-content-grid {
-	display: flex;
+	// display: flex;
+	margin-left: -45%;
+	max-width: 100%;
+	// @include test-border($testing);
 }
 
 .side_content {
@@ -13,12 +16,12 @@
 		margin-left: 1%;
 	}
 	header {
-		@include test-border($testing);
+		
 		margin-top: -30px;
 	}
 	padding: 20px;
 	margin-right: 5%;
-	@include test-border($testing2);
+	// @include test-border($testing2);
 	@include iphone5s-landscape {
 		width: 100%;
   	}

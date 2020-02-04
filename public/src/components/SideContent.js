@@ -7,7 +7,7 @@ import DirectoryBox from './DirectoryBox';
 
 const SideContent = (props) => 
 (
-	<div>
+	<div className="side-content-grid">
 		<GraphBox/>
 		<PollBox/>
 		<WeatherBox/>
