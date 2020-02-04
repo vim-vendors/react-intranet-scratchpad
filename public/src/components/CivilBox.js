@@ -10,7 +10,7 @@ const CivilBox = (props) =>
 	<section className="small_content">
 		<header className="small_content__link-content--accordion">
 			<h2>Civil Engineering</h2>
-			<input id="tab" type="checkbox" name="tab"/>
+			<button></button>
 		</header>
 		<div className="small_content__link-content">
 			<ul>

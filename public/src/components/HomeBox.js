@@ -10,7 +10,7 @@ const HomeBox = (props) =>
 	<section className="small_content">
 		<header>
 			<h2>Home</h2>
-			<input id="tab" className="small_content__link-content--accordion" type="checkbox" name="tab"/>
+			<button></button>
 		</header>
 		<ul className="small_content__link-content">
 			<li><img src={folderIcon} alt="Folder Icon"/><a href="#">Shared Documents</a></li>
