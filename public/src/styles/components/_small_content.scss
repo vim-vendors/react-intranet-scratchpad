@@ -9,7 +9,10 @@
     margin-left: 22px;
 
     header {
-		display: inline-block;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
 		margin-bottom: -25px;
 		margin-top: -25px;
     }
@@ -37,3 +40,11 @@
     }
 }
 
+
+.small_content__link-content {
+
+}
+
+.small_content input:checked ~ .small_content__link-content {
+
+	}

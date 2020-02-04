@@ -10,9 +10,9 @@ const PublicBox= (props) =>
 	<section className="small_content">
 		<header>
 			<h2>Public Works</h2>
-
+			<input id="tab" className="small_content__link-content--accordion" type="checkbox" name="tab"/>
 		</header>
-		<ul>
+		<ul className="small_content__link-content">
 			<li><img src={checkIcon} alt="User ID"/><a href="#">Ongoing Projects</a></li>
 			<li><img src={addIcon} alt="Add Icon"/><a href="#">Add Projects</a></li>
 			<li><img src={completeIcon} alt="Complete Icon"/><a href="#">Completed Projects</a></li>

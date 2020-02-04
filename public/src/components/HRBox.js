@@ -11,9 +11,9 @@ const HRBox = (props) =>
 	<section className="small_content">
 		<header>
 			<h2>HR</h2>
-
+			<input id="tab" className="small_content__link-content--accordion" type="checkbox" name="tab"/>
 		</header>
-		<ul>
+		<ul className="small_content__link-content">
 			<li><img src={calendarIcon} alt="User ID"/><a href="#">HR Calendar</a></li>
 			<li><img src={photoIcon} alt="Photo Icon"/><a href="#">Photos Archive</a></li>
 			<li><img src={timeIcon} alt="Time Icon"/><a href="#">Time Off Requests</a></li>
