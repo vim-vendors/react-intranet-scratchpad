@@ -11,9 +11,13 @@
 		margin-top: 33px;
 		font-size: 29pt;
 		margin-left: -74%;
+		@include laptop-fix {
+    		margin-left: -22%;
+		}
 		@include laptop {
     		margin-left: -54%;
 		}
+
 		@include iPad-mini {
 			margin-left: -44%;
 		}

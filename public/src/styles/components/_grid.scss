@@ -29,6 +29,15 @@
 			"filler filler filler"
 			"foot foot foot";
   	}
+
+  	@include laptop {
+  		grid-template-areas:
+			"head head head head head head"
+			"side small-heading small-heading small-heading small-heading small-heading"
+			"side main main main main filler"
+			"side main  main main main filler"
+			"foot foot foot foot foot foot";  			
+  	}
 }
 
 .header {

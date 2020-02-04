@@ -6,12 +6,16 @@
 	margin-left: -15%;
 	max-width: 100%;
 	padding-left: 0px;
-	
+	@include laptop {
+		grid-template-columns: auto;
+		grid-gap: 0px;
+		margin-left: 5%;
+		max-width: 95%;
+	}
 }
 
 .side_content {
 	@include center-content-border;
-	flex-shrink: 3;
 	img {
 		width: 300px;
 		height: 300px;

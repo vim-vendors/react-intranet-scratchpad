@@ -4,12 +4,6 @@ import logo from "../images/seal.png";
 const Header = (props) => 
 (
 		<header className="header">	
-
-
-{/*		    <input type="checkbox" className="toggler"/>
-    		<div className="hamburger"><div></div></div>*/}
-
-
 			<img src={logo} id="logo"/>
 			<h1 className="header__title">{props.title}</h1>
 			<nav className="header-menu">
@@ -22,12 +16,8 @@ const Header = (props) =>
 						</ul>
 					</div>
 				</div>
-
 			</nav>		
 		</header>
-
-
-
 );
 
 

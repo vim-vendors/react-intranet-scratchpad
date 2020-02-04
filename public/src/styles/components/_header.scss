@@ -1,19 +1,18 @@
 
 .header  {
 	@include header-flex (space-around, $main, white);
+	// width: 100%;
 	padding-top: 15px;
 	height: 110px;
 	h1 {
 		display: inline-block;
 		margin-top: 33px;
-		@include laptop {
-    	
-  		}
   	}
   	nav {
 	padding-top: 20px;
+
 	@include laptop {
-		
+
 		}
 	}
 	ul { 
@@ -52,6 +51,13 @@
 	height: 95px;
 }
 
+.header-menu {
+	@include laptop {
+		margin-right: -10%;
+		overflow: none;
+		// max-width: 50%;
+	}
+}
 
 
 #header-menu__last-link {

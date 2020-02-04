@@ -1,11 +1,12 @@
 .main-stuff {
+	@include center-content-border;
 	margin-left: 5%;
 	// margin-right: 5%;
 	max-width: 70%;
-}
-
-.main-stuff {
-	@include center-content-border;
+	@include laptop {
+		max-width: 100%;
+		margin-left: 2.5%;
+	}
 }
 
 .large-content {
@@ -43,8 +44,8 @@
 			&:visited {
 			}
 			&:hover {
-				color: white;
-				background-color: $main;
+				// color: $main;
+				// background-color: $main;
 			}
 		}
 	}
@@ -63,6 +64,10 @@
 		border-radius: 60px;
 		padding: 5px;
 		border: 1px solid $main;
+		&:hover {
+			color: white;
+			background-color: $main;
+		}
 }
 
 .main_content {
