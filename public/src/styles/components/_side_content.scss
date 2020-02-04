@@ -1,9 +1,12 @@
 //container 
 .side-content-grid {
-	// display: flex;
-	margin-left: -45%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	margin-left: -15%;
 	max-width: 100%;
-	// @include test-border($testing);
+	padding-left: 0px;
+	
 }
 
 .side_content {
@@ -21,7 +24,6 @@
 	}
 	padding: 20px;
 	margin-right: 5%;
-	// @include test-border($testing2);
 	@include iphone5s-landscape {
 		width: 100%;
   	}

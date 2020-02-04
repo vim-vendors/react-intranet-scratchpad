@@ -1,6 +1,8 @@
 
 .header  {
 	@include header-flex (space-around, $main, white);
+	padding-top: 15px;
+	height: 110px;
 	h1 {
 		display: inline-block;
 		margin-top: 33px;
@@ -34,6 +36,7 @@
 			}
 			&:hover {
 				color: $hoverblue;
+				text-decoration: underline;
 			}
 
 

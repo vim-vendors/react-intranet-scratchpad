@@ -1,7 +1,7 @@
 .main-stuff {
 	margin-left: 5%;
-	margin-right: 5%;
-	max-width: 60%;
+	// margin-right: 5%;
+	max-width: 70%;
 }
 
 .main-stuff {
@@ -43,7 +43,8 @@
 			&:visited {
 			}
 			&:hover {
-				color: $hoverblue;
+				color: white;
+				background-color: $main;
 			}
 		}
 	}
