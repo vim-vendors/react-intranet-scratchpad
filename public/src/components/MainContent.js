@@ -6,16 +6,19 @@ const MainContent = (props) =>
 (
 	<main className="main-stuff">	
 		<LargeContentHeader/>
-		{
-			props.posts.map((post) => (
+		{	
+
+			props.posts.map((post, index, arr) => (
 			<div>
 				<LargeContent
 				key={post.post_text}
 				post_text={post.post_text}
 				post_title={post.post_title}
 				/>
-			{/*need code to say as long as not last in array display*/}
-				<div className="main_content--style-line"></div>
+			{/*code to prevent grey line from displaying after last post*/}
+			{(arr.length - 1 !== index) && <div className="main_content--style-line"></div>}
+				
+			
 			</div>
 			))
 		}
