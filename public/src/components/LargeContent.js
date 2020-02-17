@@ -3,7 +3,7 @@ import React from 'react';
 import newsIcon from "../images/interface/png/browser.png";
 import placeholder from "../images/interface/png/placeholder.png";
 
-//need text parsing method for option text
+//need text parsing method for pst text
 
 const LargeContent = (props) => 
 (
