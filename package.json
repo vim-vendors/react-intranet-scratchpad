@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-	"build-2": "webpack --watch",
-    "serve": "webpack-dev-server  --host 0.0.0.0",
- 	"sync-on": "browser-sync start --server --port 3000 --watchEvents 'change' --no-inject-changes --no-open --directory --files 'public/index.html' 'public/bundle.js'",
-    "sync-off": "browser-sync start --server --port 3000 --watchEvents 'change' --no-inject-changes --no-open --no-online --directory --files 'public/index.html' 'public/bundle.js'",
+	  "build-2": "webpack --watch",
+    "serve": "webpack-dev-server  --host 0.0.0.0 --port 3000",
+ 	  "sync-on": "browser-sync start --server --port 3000 --watchEvents 'change' --no-inject-changes --no-open --directory --files 'public/index.html' 'public/bundle.js'",
+    "sync-off": "browser-sync start --server --port 3000 --watchEvents 'change' --no-inject-changes --no-open --no-online --directory --files 'public/index.html' 'public/bundle.js'"
   },
   "author": "",
   "license": "ISC",
@@ -27,7 +27,7 @@
     "babel-loader": "^7.1.1",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-	"browser-sync": "^2.26.7",
+	  "browser-sync": "^2.26.7",
     "css-loader": "^2.1.0",
     "file-loader": "^2.0.0",
     "live-server": "^1.2.0",
