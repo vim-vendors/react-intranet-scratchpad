@@ -17,8 +17,6 @@ const MainContent = (props) =>
 				/>
 			{/*code to prevent grey line from displaying after last post*/}
 			{(arr.length - 1 !== index) && <div className="main_content--style-line"></div>}
-				
-			
 			</div>
 			))
 		}
